@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightergrey">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp"
+        app:layout_constraintVertical_chainStyle="spread">
+
+        <Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightgrey"
+            android:titleTextColor="@color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:paddingRight="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="@string/faqMenu"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mobileNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="@string/sampleNo"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+        </Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/lightergrey"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/search_grey_24"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:hint="@string/searchHere"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/sale_24"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/plannoff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/sale_24"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/selfhelp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/sale_24"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/movfiber" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/sale_24"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/serndev" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/popQue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableRight="@drawable/forward_20"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/popQue1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableRight="@drawable/forward_20"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/popQue2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableRight="@drawable/forward_20"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/popQue3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:drawableRight="@drawable/forward_20"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/popQue4" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

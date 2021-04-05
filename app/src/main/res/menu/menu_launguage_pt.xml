@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pt"
+        android:tooltipText="pt"
+        android:enabled="true"
+        android:title="@string/portuguese"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/en"
+        android:enabled="true"
+        android:tooltipText="en"
+        android:title="@string/english"
+        app:showAsAction="ifRoom" />
+
+</menu>

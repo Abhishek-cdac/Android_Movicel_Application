@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/home_96"
+        android:title="@string/menu1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/recharge"
+        android:enabled="true"
+        android:icon="@drawable/recharge_96"
+        android:title="@string/menu2"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/myVouchers"
+        android:enabled="true"
+        android:icon="@drawable/voucher_96"
+        android:title="@string/menu3"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/coupons"
+        android:enabled="true"
+        android:icon="@drawable/sample_96"
+        android:title="@string/menu4"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/movicelCare"
+        android:enabled="true"
+        android:icon="@drawable/sample_96"
+        android:title="@string/menu5"
+        app:showAsAction="ifRoom" />
+
+</menu>

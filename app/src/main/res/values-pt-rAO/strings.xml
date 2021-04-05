@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Movicel Self Care</string>
+
+    //Login Page
+    <string name="manage">Gerencie todas as suas contas.</string>
+    <string name="contactNo">Número de contato</string>
+    <string name="password">Senha</string>
+    <string name="signIn">ASSINAR EM</string>
+    <string name="signIn1">Assinar em</string>
+    <string name="sampleNo">+244 965498465</string>
+    <string name="samplePass">12345</string>
+
+    //Sign Up Act
+    <string name="fName"> Nome completo</string>
+    <string name="cpswd"> Confirme a Senha</string>
+    <string name="email"> Identificação do email</string>
+    <string name="mobile"> Número de contato</string>
+    <string name="pswd"> Senha</string>
+    <string name="signUp">INSCREVER-SE</string>
+    <string name="signUp1"> Inscrever-se</string>
+    <string name="register"> Registre uma nova conta conosco</string>
+    <string name="alreadyhaveacc"> já tem uma conta?</string>
+    <string name="prompt_organization">Nome da organização</string>
+    <string name="submit">ENVIAR</string>
+
+    //Dashboard App Bar
+    <string name="SearchSelfCare">Pesquisar Autocuidado</string>
+    <string name="notify">notificar</string>
+
+    //Fragment buy screen
+    <string name="amountPay">Quantidade pagável</string>
+    <string name="Kz2020">Kz 2020.00</string>
+    <string name="opt1">Kz 50 Cashback na primeira transação UPI de novos usuários de paytm UPI T &#38; C</string>
+    <string name="opt2">Kz 25 Cashback na transação Amazon Pay UPI de Kz149 &#38; acima</string>
+    <string name="upi">UPI</string>
+    <string name="paymentOpt1">Amazon Pay</string>
+    <string name="paymentOpt2">Kamba</string>
+    <string name="paymentOpt3">Neteller</string>
+    <string name="otherpaymentOpt">Outras opções de pagamento</string>
+    <string name="debit">Cartão de débito / ATM</string>
+    <string name="net">Net Banking</string>
+    <string name="credit">Cartão de crédito</string>
+    <string name="recharge">Recarrega</string>
+
+    //Fragment coupon
+    <string name="nocop">Você não tem cupons !</string>
+    <string name="coupInfo">Receba cupons exclusivos com recargas Movicel</string>
+
+    //Fragment Credit Card
+    <string name="CardName">NOME DO TITULAR</string>
+    <string name="CardNo">NÚMERO DO CARTÃO</string>
+    <string name="CVV">CVV</string>
+    <string name="next">PRÓXIMA</string>
+    <string name="saveCreditCard">Salvar informações do cartão de crédito</string>
+
+    //Fragment Movicel Care
+    <string name="help">Como podemos te ajudar?</string>
+    <string name="searchHere">Procure aqui......</string>
+    <string name="trackReq">Rastrear solicitação</string>
+    <string name="trackOrd">Acompanhar Pedido</string>
+    <string name="locateus1">Localize-nos</string>
+    <string name="query">Tem uma consulta genérica?</string>
+    <string name="faq">Perguntas frequentes</string>
+    <string name="videos">Como vídeos</string>
+    <string name="troubleshoot">Solucionar problemas</string>
+    <string name="tips">Dicas úteis</string>
+    <string name="liveChat">Bate-papo ao vivo</string>
+
+    //Troubleshoot
+    <string name="troubleTag">Movicel Care Solucionar problemas</string>
+    <string name="troubleQ1">Como corrigir um problema de rede?</string>
+    <string name="troubleQ2">Como entrar em contato com o Atendimento ao cliente?</string>
+
+    //Guest Login
+    <string name="continue1">CONTINUAR</string>
+    <string name="guestLog">Login como convidado</string>
+
+    //Payment Success
+    <string name="paySuccess">Sucesso no pagamento</string>
+    <string name="paySuccessInfo">Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.Sucesso no pagamento.</string>
+
+    //Fragment Recharge
+    <string name="buy">Comprar</string>
+    <string name="plans">PLANOS</string>
+    <string name="validity">VALIDADE</string>
+    <string name="benefits">BENEFÍCIOS</string>
+
+    //Launguage Setting
+    <string name="apply">APLIQUE</string>
+    <string name="launSett">Configuração de idioma</string>
+    <string name="changeAppLan">Alterar idioma do aplicativo</string>
+    <string name="ok">Está bem</string>
+    <string name="pt">Idioma do aplicativo definido como portuguêss. </string>
+    <string name="en">Idioma do aplicativo definido para inglês. </string>
+
+    //Locate Us tabs
+    <string name="store">LOJA</string>
+    <string name="serviceC">CENTRO DE SERVIÇO</string>
+    <string name="hotspot">PONTO DE ACESSO</string>
+
+    //Recharge tabs
+    <string name="all">TODOS</string>
+    <string name="popPlan">PLANOS POPULARES</string>
+    <string name="topup">COMPLETAR</string>
+    <string name="gdata">VOUCHER DE DADOS 4G</string>
+
+    //Voucher tabs
+    <string name="view">VISÃO</string>
+    <string name="buyC">COMPRAR</string>
+    <string name="history">HISTÓRIA</string>
+
+    //Fragment Store
+    <string name="viewList">Exibir lista</string>
+    <string name="mapList">Lista de mapas</string>
+    <string name="searchLoc">Pesquisar localização da loja / centro Movicel</string>
+
+    //Fragment Voucher
+    <string name="planBuy">Comprar plano</string>
+    <string name="planVou">Planejar comprovantes</string>
+    <string name="planbenef"> Benefícios do plano: chamadas gratuitas Movicel, ilimitadas (dados de alta velocidade de 3 GB) ...</string>
+    <string name="purchased">Comprado para : </string>
+    <string name="planName">Nome do plano : </string>
+    <string name="quality">Qualidade - 1 </string>
+    <string name="qualityView">Qualidade : 08 </string>
+    <string name="cashback">Dinheiro de volta</string>
+    <string name="select">Selecione</string>
+    <string name="transferable">Transferível</string>
+
+    //Dashboard
+    <string name="myAcc">Minha conta</string>
+    <string name="movicelPrime">MOVICEL PRIME</string>
+    <string name="prepaid">VoLTE pré-pago</string>
+    <string name="lastUsed">Utilizado pela última vez no Lenovo Vibe K5 Note A7020</string>
+    <string name="switchAcc">Mudar de conta</string>
+    <string name="linkAcc">Vincular nova conta</string>
+    <string name="talktime">Kz 50.33</string>
+    <string name="talktimeInfo">Saldo de tempo de conversação, nunca expira</string>
+    <string name="viewPlan">Exibir plano</string>
+    <string name="planExp">expira em 26 de janeiro de 2020</string>
+    <string name="checkUsage">Verificar uso</string>
+    <string name="balUsage">O saldo é atualizado dentro de 60 minutos após o uso</string>
+    <string name="totalBal">1 GB</string>
+    <string name="remBal">o restante de 1 GB \n renova em 13 horas</string>
+
+    //FAQ
+    <string name="faqMenu">Movicel Care - Perguntas frequentes</string>
+    <string name="plannoff">Planos e Ofertas</string>
+    <string name="selfhelp">Auto-ajuda</string>
+    <string name="movfiber">Movicel Fiber</string>
+    <string name="serndev">Serviços e dispositivos</string>
+    <string name="popQue">Questões populares</string>
+    <string name="popQue1">Quais são os benefícios do movicel New All Plans ?</string>
+    <string name="popQue2">Quais são as tarifas para ligações internacionais ?</string>
+    <string name="popQue3">Como posso alterar o plano de faturamento ?</string>
+    <string name="popQue4">Como entrar em contato com o Atendimento ao cliente ?</string>
+
+    //Navigation Drawer
+    <string name="userName">Nome do usuário</string>
+    <string name="userEmail">user_name@gmail.com</string>
+    <string name="home">Casa</string>
+    <string name="myvouchers">Meus comprovantes</string>
+    <string name="myplan">Meu plano</string>
+    <string name="coupons">Cupons</string>
+    <string name="mystatements">Minhas declarações</string>
+    <string name="movicelcare">Movicel Care</string>
+    <string name="locateus">Localize-nos</string>
+    <string name="ournetwork">Nossa Rede</string>
+    <string name="settings">Definições</string>
+    <string name="logout">Sair</string>
+    <string name="navigation_drawer_open">Gaveta de navegação aberta</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+
+    //Bottom Navigation
+    <string name="menu1">Casa</string>
+    <string name="menu2">Recarrega</string>
+    <string name="menu3">Meus comprovantes</string>
+    <string name="menu4">Cupons</string>
+    <string name="menu5">MovicelCare</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="check"> <u>Verifique seu extrato</u></string>
+    <string name="viewMore"> <u>Veja mais</u></string>
+    <string name="guestLogin"> USUÁRIO CONVIDADO </string>
+    <string name="createAcc">Você não tem conta? </string>
+    <string name="phoneErr">digite um número de contato correto</string>
+    <string name="passErr">digite uma senha correta</string>
+    <string name="backPress">Pressione Voltar novamente para sair.</string>
+    <string name="TAG">Movicel Self Care</string>
+    <string name="google_firebase_app_id">1:813170106324:android:901c76784be31318670041</string>
+    <string name="english">Inglês</string>
+    <string name="portuguese">Portuguesa</string>
+
+    //Data items
+    <string-array name="yearList">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+    <string-array name="monthList">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+    </string-array>
+    <string-array name="plansAll">
+        <item>Kz 2020</item>
+        <item>Kz 555</item>
+        <item>Kz 422</item>
+        <item>Kz 333</item>
+        <item>Kz 0200</item>
+        <item>Kz 150</item>
+    </string-array>
+    <string-array name="validity4G">
+        <item>Plano existente</item>
+        <item>Plano existente</item>
+        <item>Plano existente</item>
+    </string-array>
+    <string-array name="benef4G">
+        <item>400 MB</item>
+        <item>1 GB</item>
+        <item>20 GB</item>
+    </string-array>
+    <string-array name="plans4G">
+        <item>Kz 11</item>
+        <item>Kz 21</item>
+        <item>Kz 101</item>
+    </string-array>
+    <string-array name="validityAll">
+        <item>365 dias</item>
+        <item>84 dias</item>
+        <item>365 dias</item>
+        <item>84 dias</item>
+        <item>365 dias</item>
+        <item>84 dias</item>
+    </string-array>
+    <string-array name="benefAll">
+        <item>547.5 GB</item>
+        <item>150.5 GB</item>
+        <item>547.5 GB</item>
+        <item>150.5 GB</item>
+        <item>547.5 GB</item>
+        <item>150.5 GB</item>
+    </string-array>
+    <string-array name="validityPop">
+        <item>365 dias</item>
+        <item>84 dias</item>
+        <item>365 dias</item>
+    </string-array>
+    <string-array name="benefPop">
+        <item>547.5 GB</item>
+        <item>150.5 GB</item>
+        <item>547.5 GB</item>
+    </string-array>
+    <string-array name="plansPop">
+        <item>Kz 2020</item>
+        <item>Kz 555</item>
+        <item>Kz 422</item>
+    </string-array>
+    <string-array name="validityTop">
+        <item>Ilimitada</item>
+        <item>Ilimitada</item>
+        <item>Ilimitada</item>
+    </string-array>
+    <string-array name="benefTop">
+        <item>7.47 Hora de conversar</item>
+        <item>17.47 Hora de conversar</item>
+        <item>40.47 Hora de conversar</item>
+    </string-array>
+    <string-array name="plansTop">
+        <item>Kz 10</item>
+        <item>Kz 50</item>
+        <item>Kz 100</item>
+    </string-array>
+    <string-array name="serviceName">
+        <item>Movicel Service Center</item>
+        <item>Movicel Service Center</item>
+        <item>Movicel Service Center</item>
+    </string-array>
+    <string-array name="address">
+        <item>Chissamba, Angola</item>
+        <item>Catabola, Angola</item>
+        <item>Camacupa, Angola</item>
+    </string-array>
+    <string-array name="dateTime">
+        <item>Seg-Sáb: 10:00 - 21:00</item>
+        <item>Seg-Sáb: 10:00 - 21:00</item>
+        <item>Seg-Sáb: 10:00 - Fechar</item>
+    </string-array>
+    <string-array name="launguage">
+        <item>Inglês</item>
+        <item>Portuguesa</item>
+    </string-array>
+    <string-array name="voucherBuyV">
+        <item>28 dias</item>
+        <item>365 dias</item>
+        <item>69 dias</item>
+    </string-array>
+    <string-array name="voucherBuyB">
+        <item>2 GB</item>
+        <item>548.5 GB</item>
+        <item>85 GB</item>
+    </string-array>
+    <string-array name="voucherBuyP">
+        <item>Kz 98</item>
+        <item>Kz 520</item>
+        <item>Kz 399</item>
+    </string-array>
+    <string-array name="voucherHistV">
+        <item>VOUCHER DE DADOS DE 5GB</item>
+        <item>VOUCHER DE DADOS DE 7GB</item>
+        <item>VOUCHER DE DADOS DE 2GB</item>
+    </string-array>
+    <string-array name="voucherHistB">
+        <item>05 de janeiro de 2020 09:10</item>
+        <item>5 de nov de 2019 às 09:10</item>
+        <item>05 de outubro de 2019 09:10</item>
+    </string-array>
+    <string-array name="voucherHistP">
+        <item>63004400300</item>
+        <item>6300044300</item>
+        <item>9500440300</item>
+    </string-array>
+    <string-array name="voucherVwV">
+        <item>08</item>
+        <item>08</item>
+        <item>08</item>
+    </string-array>
+    <string-array name="voucherVwP">
+        <item>Kz 50</item>
+        <item>Kz 100</item>
+        <item>Kz 180</item>
+    </string-array>
+
+</resources>

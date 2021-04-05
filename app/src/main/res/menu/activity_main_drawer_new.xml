@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_view_item_home"
+            android:checked="true"
+            android:icon="@drawable/home_96"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/navigation_view_item_recharge"
+            android:icon="@drawable/sample_96"
+            android:title="@string/recharge" />
+
+        <item
+            android:id="@+id/navigation_view_item_my_vouchers"
+            android:icon="@drawable/sample_96"
+            android:title="@string/myvouchers" />
+
+        <item
+            android:id="@+id/navigation_view_item_my_plan"
+            android:name="drawerArrowStyle"
+            android:icon="@drawable/sample_96"
+            android:title="@string/myplan" />
+
+        <item
+            android:id="@+id/navigation_view_item_coupons"
+            android:icon="@drawable/sample_96"
+            android:title="@string/coupons" />
+
+        <item
+            android:id="@+id/navigation_view_item_my_statements"
+            android:icon="@drawable/sample_96"
+            android:title="@string/mystatements" />
+
+        <item
+            android:id="@+id/navigation_view_item_movicel_care"
+            android:icon="@drawable/sample_96"
+            android:title="@string/movicelcare" />
+
+        <item
+            android:id="@+id/navigation_view_item_locate_us"
+            android:icon="@drawable/sample_96"
+            android:title="@string/locateus" />
+
+        <item
+            android:id="@+id/navigation_view_item_our_network"
+            android:icon="@drawable/sample_96"
+            android:title="@string/ournetwork" />
+
+        <item
+            android:id="@+id/navigation_view_item_Settings"
+            android:icon="@drawable/sample_96"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/navigation_view_item_logout"
+            android:icon="@drawable/sample_96"
+            android:title="@string/logout" />
+
+    </group>
+
+</menu>

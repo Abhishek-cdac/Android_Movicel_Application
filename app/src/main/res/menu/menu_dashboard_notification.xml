@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:titleCondensed="Search"
+        android:title="@string/SearchSelfCare"
+        app:showAsAction="always"
+        android:orderInCategory="885"
+        android:icon="@drawable/search_20_white">
+    </item>
+
+    <item
+        android:id="@+id/action_notify"
+        android:titleCondensed="Notifications"
+        app:showAsAction="always"
+        android:title="@string/notify"
+        android:orderInCategory="888"
+        android:icon="@drawable/actionbar_group_icon_notification">
+    </item>
+
+</menu>
